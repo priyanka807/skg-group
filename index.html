@@ -1,0 +1,460 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title></title>
+		<link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+		<link rel="stylesheet" type="text/css" href="css/vendor/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/vendor/bootstrap-theme.min.css">
+		<link rel="stylesheet" type="text/css" href="css/vendor/font-awesome/css/font-awesome.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/vendor/font-awesome/dist/font-awesome-animation.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/vendor/magnific/magnific-popup.css">
+		<link rel="stylesheet" type="text/css" href="css/vendor/owl-carousel/owl.carousel.css">
+		<link rel="stylesheet" type="text/css" href="css/vendor/owl-carousel/owl.theme.css">
+		<link rel="stylesheet" type="text/css" href="css/vendor/owl-carousel/carousel.css">
+		<link rel="stylesheet" type="text/css" href="css/custom/style.css">		
+	</head>
+	<body data-spy="scroll" data-target=".navbar-fixed-top" data-offset="100">
+<!-- <?php include("test.php")?> -->
+
+		<div class="preheader">
+			<div class="container">
+				<div class="logo-image-1">
+					<a href="#"><img src="images/logo-white.png" alt="150x50" /></a>
+				</div>
+				<div class="navbar-right preheader-right">
+					<ul class="preheader-div text-center">
+						<li>
+							<img src="images/aura/32x32x5.png" alt="32x32x5" />
+						</li>
+						<li>
+							<p class="content-spacing text-white">+91-11-43575156</p>
+						</li>
+					</ul>
+					<ul class="preheader-div preheader-div-1 text-center">
+						<li>
+							<img src="images/aura/32x32x6.png" alt="32x32x6" />
+						</li>
+						<li>
+							<p class="content-spacing "><a href="#" class="text-white">abg@skggroup.com</a></p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+
+
+		<header>
+			<nav class="topbar navbar navbar-default navbar-fixed-top clearfix  " >
+				<div class="container">
+					<div class="">
+						<div class="logo-image">
+							<a href="#"><img src="images/logo-white.png" alt="150x50" /></a>
+						</div>
+						<div class="navigation1">
+							<div class="navbar-header">
+								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								</button>					
+							</div>
+							<div >
+								<ul class="nav navbar-nav" >
+									<li class="">
+										<li class="">
+											<a href="#home" class="pagescroll">
+											Home
+											</a>
+										</li>
+									
+									<li class="">
+										<a href="#services" class="pagescroll">
+										Services
+										</a>
+									</li>
+									<li class="menu">
+										<a href="#gallery" class="pagescroll">
+										Gallery
+										</a>
+									</li>
+									<li class="menu">
+										<a href="#pricing" class="pagescroll">
+										Pricing
+										</a>
+									</li>
+									<li class="menu">
+										<a href="#contact" class="pagescroll">
+										Contact
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="navbar-right icon-header nav">
+							<ul class="content-ul header-icon text-center">
+								<li>
+									<a href="#"><img src="images/aura/32x32x1.png" alt="32x32x1" /></a>
+								</li>
+								<li>
+									<a href="#"><img src="images/aura/32x32x2.png" alt="32x32x2" /></a>
+								</li>
+								<li>
+									<a href="#"><img src="images/aura/32x32x3.png" alt="32x32x3" /></a>
+								</li>
+								<li>
+									<a href="#"><img src="images/aura/32x32x4.png" alt="32x32x4" /></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</header>
+
+		<div class="kode-blog-style-2">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8">
+                        <div class="kode-contact-heading">
+							<h4>Get in touch</h4>
+							<span class="border-left"></span>
+							
+						</div>
+						<div class="kode-contact-area col-md-12">
+                             <?php 
+                            $Msg = "";
+                            if(isset($_GET['error']))
+                            {
+                                $Msg = " Please Fill in the Blanks ";
+                                echo '<div class="alert alert-danger">'.$Msg.'</div>';
+                            }
+
+                            if(isset($_GET['success']))
+                            {
+                                $Msg = " Your Message Has Been Sent ";
+                                echo '<div class="alert alert-success">'.$Msg.'</div>';
+                            }                        
+                        	?>				
+						</div>
+					</div>
+
+		<div class="header-bgimage-2 bgimage-property clearfix" id="home">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-6 col-md-7 header-div-2">
+						<h1>We Are <span>Aura</span> Financial Consultant Company</h1>
+						<p class="header-content">Donec varius sodales orci. Class aptent taciti sociosqu torquent, per inceptos himenaeos. End of content.
+							Donec varius sodales orci. Class aptent taciti.
+						</p>
+						<a href="#" class="btn btn-1">Read More</a>
+					</div>
+					<div class="col-sm-6 col-md-5">
+						<div class="form-section">
+							<div class="row">
+								<div class="form-col no-padding">
+									<h3 class="text-center">Get A Quote</h3>
+									<form class="contact-form-1" id="contact-form-1" method="POST" action="contact.php">
+										<!-- Your form fields here -->
+										<div class="form-div">
+											<i class="fa fa-user"></i>
+											<input class="form-input" type="text" name="name" value="" placeholder="Please Enter Name" required autocomplete="off">
+										</div>
+										<div class="form-div">
+											<i class="fa fa-envelope"></i>
+											<input class="form-input" type="email" name="email" value="" placeholder="Please Enter Email" required autocomplete="off">
+										</div>
+										<div class="form-div form-div-1">
+											<i class="fa fa-pencil"></i>
+											<textarea class="form-message" name="message" cols="40" rows="3" placeholder="Please Enter Message" required autocomplete="off"></textarea>
+										</div>
+										<div class="form-btn text-center">							
+											<input type="submit" name="btn-send" class="btn btn-1 submit content-spacing content-uppercase content-bold" name="submit" value="Submit">
+										</div>
+										<div class="messageDiv"> <span class="successMessage"></span> <span class="failMessage"></span> </div>
+									</form>
+								</div>
+							</div>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<section class="theme-bg strip-padding">
+			<div class="container">
+				<div class="row strip-row">
+					<div class="col-xs-12 col-sm-9 col-md-8 strip-col onecolumn-res text-left">
+						<ul class="list-ul content-ul">
+							<li class="content-li">
+								<div class="list-div">
+									<div class="list-div-left">
+										<img src="images/aura/48x48x1.png" alt="48x48x1"/>
+									</div>
+									<div class="list-div-body">
+										<h3>Get Free Consultation</h3>
+										<p>Aenean arcu viverra varius sodales sociosqu torquent.</p>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="col-xs-12 col-sm-3 col-md-4 strip-col-1 text-center">
+						<a href="#" class="btn btn-2">Find Advisor</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="section-padding section-1-bg" id="features">
+			<div class="container">
+				<div class="heading-div-1 text-center">
+					<h2>Who We Are</h2>
+				</div>
+				<div class="row">
+					<div class="col-sm-4 col-md-4 features-col features-col-space-1 text-center section-space">
+						<div class="features-div">
+							<img src="images/aura/64x64x1.png" alt="64x64x1" class=""/>
+							<h4><a href="#" class="your-class-name" style="margin-bottom:20px;">Financial Consultant</a></h4>
+
+							<p class="content-top-space">Donec varius sodales orci. Class aptent taciti sociosqu torquent, per inceptos himenaeos. End of content.</p>
+						</div>
+					</div>
+					<div class="col-sm-4 col-md-4 features-col features-col-space-1 text-center section-space">
+						<div class="features-div">
+							<img src="images/aura/64x64x2.png" alt="64x64x2" class="image-bottom-space"/>
+							<h4><a href="#">Corporate Trainer</a></h4>
+							<p class="content-top-space">Donec varius sodales orci. Class aptent taciti sociosqu torquent, per inceptos himenaeos. End of content.</p>
+						</div>
+					</div>
+					<div class="col-sm-4 col-md-4 features-col features-col-space-1 text-center">
+						<div class="features-div">
+							<img src="images/aura/64x64x3.png" alt="64x64x3" class="image-bottom-space"/>	
+							<h4><a href="#">Marketing Advisor</a></h4>
+							<p class="content-top-space">Donec varius sodales orci. Class aptent taciti sociosqu torquent, per inceptos himenaeos. End of content.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="section-2-bg">
+			<div class="business3-bgimage bgimage-property"></div>
+			<div class="business3-padding">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-push-6 col-sm-6 business2-col">
+							<h3>About Us</h3>
+							<p class="content-top-space">Donec varius sodales orci. Class aptent taciti sociosqu torquent, per inceptos himenaeos. End of content.
+								Donec varius sodales orci. Class aptent taciti sociosqu torquent, per inceptos himenaeos.							
+							</p>
+							<div class="business-list-div">
+								<ul class="why-are-ul">
+									<li><img src="images/aura/20x20x1.png" alt="20x20x1" /></li>
+									<li>
+										<p class="content-spacing">Donec varius sodales ullamcorper inceptos.</p>
+									</li>
+								</ul>
+								<ul class="why-are-ul">
+									<li><img src="images/aura/20x20x1.png" alt="20x20x1" /></li>
+									<li>
+										<p class="content-spacing">Class aptent taciti, per inceptos himenaeos.</p>
+									</li>
+								</ul>
+								<ul class="why-are-ul">
+									<li><img src="images/aura/20x20x1.png" alt="20x20x1" /></li>
+									<li>
+										<p class="content-spacing">Aenean arcu viverra varius sodales orci.</p>
+									</li>
+								</ul>
+								<ul class="why-are-ul">
+									<li><img src="images/aura/20x20x1.png" alt="20x20x1" /></li>
+									<li>
+										<p class="content-spacing">Sociosqu torquent himenaeos, End of content.</p>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="section-padding section-1-bg" id="services" >
+			<div class="container">
+				<div class="heading-div-1 text-center">
+					<h2>Our Companies</h2>
+				</div>
+				<div class="row">
+					<div class="col-sm-6 col-md-4 services-col services-col-space-1 text-center section-space">
+						<div class="services-div">
+							<img src="images/company/india.png" alt="64x64x4" class="image-bottom-space"/>
+							<h4><a href="#">India International House Ltd</a></h4>
+							<p class="content-top-space">Largest manufacture of builder's hardware having all manufacturing facilities in house under one roof. from forging to packing for Distributers & Chain Stores.</p>
+							<a href="#" class="read-more-1">Read More</a>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-4 services-col services-col-space-1 text-center section-space">
+						<div class="services-div">
+							<img src="images/company/tv-logo.png" alt="64x64x4" class="image-bottom-space"/>
+							<h4><a href="#">Avanti Media Ltd</a></h4>
+							<p class="content-top-space">Number One News Channel of UttaraKhand and himachal.Tv100 Grew today's more watched news channel followed by their genuine user</p>
+							<a href="#" class="read-more-1">Read More</a>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-4 services-col services-col-space-1 text-center section-space">
+						<div class="services-div">
+							<img src="images/company/iitr.png" alt="64x64x4" class="image-bottom-space"/>
+							<h4><a href="#">HireIndians</a></h4>
+							<p class="content-top-space">Indian International Technical Recruiters .The one stop resource center for Global Employers and Indian professional in Engineering.</p>
+							<a href="#" class="read-more-1">Read More</a>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-4 services-col services-col-space-1 text-center section-space">
+						<div class="services-div">
+							<img src="images/company/gas.png" alt="64x64x4" class="image-bottom-space"/>
+							<h4><a href="#">Global Oil & Gas Jobs</a></h4>
+							<p class="content-top-space">Global oil is bought to you by India International Technical Recruiters.We offer Post Graduate, Graduate, Diploma, Certificate</p>
+							<a href="#" class="read-more-1">Read More</a>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-4 services-col services-col-space-1 text-center section-space">
+						<div class="services-div">
+							<img src="images/company/dd.jpg" alt="64x64x4" class="image-bottom-space"/>
+							<h4><a href="#">India International Healthcare Recruiters</a></h4>
+							<p class="content-top-space">India International Healthcare Recruiters is India's largest healthcare placement Co. As division of IITR. Each year,IIHCR places over 500</p>
+							<a href="#" class="read-more-1">Read More</a>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-4 services-col services-col-space-1 text-center section-space">
+						<div class="services-div">
+							<img src="images/company/indimedo-logo.png" alt="64x64x4" class="image-bottom-space"/>
+							<h4><a href="#">Indimedo Private Limited</a></h4>
+							<p class="content-top-space">Online Pharmacy for all Your Medical Needs. Home Delivery of Medicine, Health Check Up, Online Doctor Consultation</p>
+							<a href="#" class="read-more-1">Read More</a>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-4 services-col services-col-space-1 text-center section-space">
+						<div class="services-div">
+							<img src="images/company/logo1.png" alt="64x64x4" class="image-bottom-space"/>
+							<h4><a href="#">Avanti Hardware</a></h4>
+							<p class="content-top-space">Founded in 1976 Avanti Hardware is a part of the SKG Group. Specializing in the production of metal & plastic-based products such</p>
+							<a href="#" class="read-more-1">Read More</a>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-4 services-col services-col-space-1 text-center section-space">
+						<div class="services-div">
+							<img src="images/company/event-logo.png" alt="64x64x4" class="image-bottom-space"/>
+							<h4><a href="#">India International Event Services</a></h4>
+							<p class="content-top-space">India International Event Services has created a legacy of occasion control by adopting modern requirements. Our experts have brought a transition in their work</p>
+							<a href="#" class="read-more-1">Read More</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<div class="section-padding section-2-bg">
+			<div class="container">
+				<div class="subscribe-section">
+					<h2>Subscribe For Newsletter </h2>
+					<div id="mc_embed_signup">
+						<form  action="" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"  novalidate>
+							<div class="row subscribe-row">
+								<div class="form1-div col-sm-4 col-md-4">										
+									<input class="form-input" type="text" name="NAME"  value="" id="mce-FNAME" placeholder="Please Enter Name">
+								</div>
+								<div class="form1-div col-sm-4 col-md-4">										
+									<input class="form1-input" type="email" name="EMAIL"  value="" id="mce-EMAIL" placeholder="Please Enter Email">
+								</div>
+								<div class="form1-btn col-sm-4 col-md-4">
+									<input type="submit" class="btn btn-1 submit" name="subscribe" id="mc-embedded-subscribe" value="Subscribe Now">
+								</div>
+								<div id="mce-responses">
+									<div class="response response-msg" id="mce-error-response"></div>
+									<div class="response response-msg" id="mce-success-response"></div>
+								</div>
+							</div>
+						</form>
+						<div id="ResultMsg"><span id="SuccessMsg"></span><span id="FailureMsg"></span></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<section class="section-padding footer-section-1" id="contact">
+			<div class="container">
+				<div class="row">
+					<!-- <div class="col-sm-4 col-md-4 footer-col-1 section-space">
+						<a href="#"><img src="images/logo-white.png" /></a>						
+						<p class="content-top-space">Donec varius sodales orci. Class aptent taciti sociosqu torquent, per inceptos himenaeos.</p>
+						<p class="content-top-space">Donec varius sodales orci. Class aptent taciti sociosqu torquent, per inceptos himenaeos. Aenean arcu ullamcorper, End of content</p>
+					</div> -->
+					<div class="col-sm-3 col-md-3 footer-col-3">
+						<h4>Contact Us</h4>
+						<div class="footer-div-3 text-center">
+							<div class="text-left">
+								<!-- <ul class="content-ul footer-address">
+									<li><img src="images/aura/32x32x7.png" alt="32x32x7" /></li>
+									<li>
+										<p class="content-spacing">B1-MMTC / STC Colony Local Shopping Complex Navjivan Vihar, Opposite Sri Aurobindo College Malviya Nagar, New Delhi, 110017</p>
+									</li>
+								</ul> -->
+								<ul class="content-ul footer-address footer-address-1">
+									<li><img src="images/aura/32x32x8.png" alt="32x32x8" /></li>
+									<li>
+										<p class="content-spacing"><a href="mailto:abg@skggroup.com">abg@skggroup.com</a> </p>
+									</li>
+								</ul>
+								<ul class="content-ul footer-address">
+									<li><img src="images/aura/32x32x9.png" alt="32x32x94" /></li>
+									<li>
+										<p class="content-spacing"> +91-11-43575156</p>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-9 col-md-9 footer-col-2  clearfix">
+						<h4>Site Links</h4>
+						<ul class="links">
+							<li><a href="#">INDIA INTERNATIONAL HOUSE LTD</a></li>
+							<li><a href="#">AVANTI MEDIA LTD</a></li>
+							<li><a href="#">HIREINDIANS</a></li>
+							<li><a href="#">GLOBAL OIL & GAS JOBS</a></li>
+							<li><a href="#">INDIA INTERNATIONAL HEALTHCARE RECRUITERS</a></li>
+							<li><a href="#">INDIMEDO PRIVATE LIMITED</a></li>
+							<li><a href="#">AVANTI HARDWARE</a></li>
+							<li><a href="#">INDIA INTERNATIONAL EVENT SERVICES</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer class="copyright-1">
+			<div class="container copyright text-center">
+				<p>2024 &copy; All Rights Reserved</p>
+			</div>
+		</footer>
+<script src="https://smtpjs.com/v3/smtp.js">
+	
+
+</script>
+</script>
+		<script type="text/javascript" src="js/vendor/jquery.min.js"></script>	
+		<script type="text/javascript" src="js/vendor/bootstrap.min.js"></script>	
+		<script type="text/javascript" src="js/vendor/slider/owl.carousel.min.js"></script>
+		<script type="text/javascript" src="js/vendor/slider/owl-slider.js"></script>	
+		<script type="text/javascript" src="js/vendor/magnific/jquery.magnific-popup.js"></script>
+		<script type="text/javascript" src="js/vendor/subscribe/subscribe_validate.js"></script>
+		<script type="text/javascript" src="js/vendor/validate/jquery.validate.min.js"></script>
+		<script type="text/javascript" src="js/custom/custom.js"></script>	
+	</body>
+</html>

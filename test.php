@@ -1,0 +1,1 @@
+<?php  echo "this is a php page for testing php file"; ?>
